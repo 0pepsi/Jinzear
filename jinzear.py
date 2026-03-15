@@ -1875,7 +1875,7 @@ def decompile_proto(proto, out, depth=0, func_id='0', input_file=''):
     if depth == 0:
         source = proto.source or input_file or '(unknown)'
         out.write(f'-- Decompiled using jinzear v1.0 by 0xmadvise\n')
-        out.write(f'-- https://github.com/0xmadvise/jinzear\n')
+        out.write(f'-- https://x.com/0xmadvise\n')
         out.write(f'--\n')
         out.write(f'-- Source: {source}\n')
         out.write(f'-- Params: {proto.num_params}{"+" if proto.is_vararg else ""}, ')
